@@ -1,0 +1,1048 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+button{
+    width: 100%;
+    height: 2.5rem;
+    font-family: Helvetica, bold;
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #354463;
+    background-color: #C1F7D5;
+    border-radius: 100px;
+    border: none;
+}
+
+li{
+    list-style-type: none;
+    margin: 0.375rem;
+}
+
+ul{
+    margin: 0px 0px 1.25rem 0px;
+}
+
+a{
+    color: #354463;
+    font-family: Helvetica;
+    font-weight: lighter;
+    line-height: 1.25rem;
+    text-decoration: none;
+    font-size: 0.875rem;
+    letter-spacing: -0.009rem;
+}
+
+.the-issue{
+    background-image: url("../assets/assets/home/annie-spratt-135307-unsplash.png");
+    padding: 2rem;
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: right -10rem;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: "Flood Std";
+    src: url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.eot");
+    src: url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.svg#Flood Std")format("svg");
+}
+
+h1{
+    font-family: "Flood Std";
+    color: white;
+    font-size: 2.75rem;
+    margin: 0px 0px 8.5rem 0px;
+    font-weight: normal;
+}
+
+section, div{
+    position: relative;
+}
+section{
+    padding: 2rem;
+}
+
+.the-issue > div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.sub-heading{
+    position: absolute;
+    background-color: #354463;
+    color: white;
+    padding: 0.75rem 0px;
+    left: 0px;
+    top: 0px;
+    margin: 0px 30%;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 0.875rem;
+    width: 40%;
+    text-align: center;
+    letter-spacing: 0.035rem;
+    transform: translateY(-50%);
+}
+
+h3{
+    text-align: center;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    width: 85%;
+    margin: 3.5rem 0px 0px 0px;
+    color: #354463;
+    font-family: Helvetica, bold;
+}
+
+.logo{
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    text-align: left;
+    width: auto;
+    align-self: center;
+    margin: 0px;
+}
+
+.the-issue p{
+    margin: 1.9rem 0px;
+    text-align: center;
+}
+
+.the-issue a{
+    width: 75%;
+    text-decoration: underline;
+    text-decoration-color:#354463;
+}
+
+.take-action{
+    background-color: #C1F7D5;
+    padding: 3.5rem 2.25rem;
+    justify-content: center;
+}
+
+.take-action div{
+    width: 47.5%;
+}
+
+.take-action > div{
+    width: 100%;
+    margin: 0.5rem 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.take-action > div h4,p{
+    margin: 0.28rem 0px;
+    font-family: Helvetica;
+    color: #354463;
+}
+
+.take-action > div h4{
+    font-size: 1.125rem;
+}
+
+.take-action > div p{
+    font-size: 0.875rem;
+    font-weight: lighter;
+    line-height: 1.25rem;
+}
+
+.What-we-do, .Event{
+    background-color: #354463;
+    justify-content: center;
+}
+
+.What-we-do >.sub-heading, .Event .sub-heading{
+    background-color: white;
+    color: #354463;
+}
+
+.What-we-do{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.What-we-do > .sub-heading{
+    position: static;
+    font-size: 0.875rem;
+    padding: 0.688rem;
+    transform: translateY(0%);
+}
+
+.What-we-do > h3{
+    color: white;
+    margin-top: 1.375rem;
+    width: 90%;
+}
+
+.What-we-do div{
+    background-color: white;
+    position: relative;
+    padding: 2.5rem;
+    margin-top: 5.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.What-we-do div>img{
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    top: -5rem;
+    aspect-ratio: 346/242.2;
+}
+
+img[alt = "tree-planting"]{
+    object-position: bottom;
+}
+
+.What-we-do h4{
+    position: relative;
+    text-align: center;
+    font-family: Helvetica;
+    color: #354463;
+    font-size: 1.125rem;
+    margin: 0rem;
+    top: -2.5rem;
+}
+
+.What-we-do p{
+    position: relative;
+    top: -1.5rem;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 0.875rem;
+    font-stretch: -0.009rem;
+    line-height: 1.25rem;
+    color: #354463;
+}
+
+.What-we-do button{
+    width: 50%;
+    font-size: 1rem;
+}
+
+.did-you-know{
+    background-image: url("../assets/assets/home/did-you-know-background.png");
+    background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    background-position: left top;
+}
+
+.did-you-know > div{
+    margin-top: 5rem;
+}
+
+.did-you-know > h1{
+    margin-bottom: 1rem;
+}
+
+.did-you-know > button{
+    width: 50%;
+    font-size: 1rem;
+}
+
+.did-you-know > div >h4{
+    z-index: 1;
+}
+
+.did-you-know-info {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 8fr 2fr;
+    grid-auto-flow: column; 
+    padding: 2rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.did-you-know-info > h3{
+    margin: 0.125rem 0rem 0.5rem 0rem;
+    text-align: left;
+}
+
+.did-you-know-info > button{
+    height: 2rem;
+    width: 2rem;
+    justify-self: self-end;
+}
+
+.stories > div{
+    margin-top: 1.5rem;
+}
+
+.stories img{
+    width: 100%;
+}
+
+#stories-matter{
+    background-color: #354463;
+    color: white;
+    padding: 2rem;
+    margin: 2rem 0rem;
+}
+
+#stories-matter h3{
+    color: white;
+    text-align: center;
+    margin: 0rem;
+    width: 100%
+}
+
+#stories-matter h6{
+    font-size: 0.688rem;
+    font-weight: lighter;
+    font-family: Helvetica;
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+.stories button{
+    width: 50%;
+    margin: 0% 25% 2.5rem;
+}
+
+.Event h1{
+    margin: 2.313rem 0rem 4.563rem 0rem;
+    text-align: center;
+}
+
+.Event img{
+    width: 100%;
+}
+
+.Event h5{
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.375rem;
+    color: white;
+    margin: 1.875rem 0rem;
+    line-height: 1.75rem;
+}
+
+.Event p{
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: lighter;
+    padding: 0% 7.5%;
+    font-size: 0.875rem;
+    margin-bottom: 1.75rem;
+    line-height: 1.25rem;
+}
+
+.Event button{
+    width: 50%;
+    margin: 0% 25% 2.5rem;
+}
+
+.Event h1+div{
+    margin-bottom: 3.438rem;
+}
+
+.subscribe{
+    background-color: #C1F7D5;
+    padding-right: 1.375rem;
+}
+
+.subscribe h4{
+    color: #354463;
+    font-family: Helvetica;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    margin: 0.25rem 0rem 1.875rem 0rem;
+}
+
+.subscribe form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe input{
+    border: 0rem;
+    border-radius: 100px;
+    height: 2.5rem;
+    text-align: center;
+}
+
+input[type = "email"]{
+    width: 60%;
+    font-size: 0.875rem;
+    color: #354463;
+}
+
+input[type = "submit"]{
+    width: 33.33%;
+    margin-right: 0.625rem;
+    background-color: #354463;
+    color: #C1F7D5;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem; 
+}
+
+footer{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: #354463;
+}
+
+ul, li{
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+footer > div > h6{
+    margin: 0rem;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 0.688rem;
+}
+
+footer > div{
+    margin-bottom: 2.875rem;
+}
+
+footer .logo{
+    align-self: self-start;
+}
+
+footer p{
+    font-family: Helvetica;
+    font-size: 0.875rem;
+}
+
+footer a{
+    text-decoration: underline;
+    text-decoration-color: #354463;
+}
+
+footer h1{
+    color: #354463;
+    text-align: right;
+    margin: 0rem;
+    grid-column-start: 2;
+}
+
+footer{
+    padding: 4.188rem 2rem;
+}
+
+@media(min-width: 768px){
+    header > ul{
+        order: 1;
+        display: flex;
+        width: 60%;
+        margin-right: 40%;
+        margin-bottom: 0%;
+        justify-content: space-between;
+    }
+
+    a{
+        font-size: 1rem;
+    }
+
+    button{
+        margin-top: 1.25rem;
+        width: 8.75rem;
+        height: 3rem;
+    }
+
+    header{
+        padding: 1.25rem 4rem;
+    }
+
+    .logo{
+        font-size: 1.375rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .the-issue{
+        padding: 4rem;
+    }
+
+    h1{
+        margin-bottom: 5.875rem;
+    }
+
+    .the-issue{
+        background-image: url("../assets/assets/home/annie-spratt-135307-unsplash@2x.png");
+        background-position: right bottom;
+    }
+
+    .sub-heading{
+        font-size: 0.875rem;
+        width: 20.4%;
+        top: 0px;
+        margin: 0 39.8%;
+    }
+
+    .the-issue .sub-heading{
+        margin-left: 4rem;
+        width: 9.75rem;
+    }
+
+    .the-issue > div{
+        padding: 4rem;
+    }
+
+    h3 {
+        font-size: 2.25rem;
+        text-align: left;
+        line-height: 2.875rem;
+        width: 100%;
+        margin-top: 0rem;
+    }
+
+    .the-issue a{
+        width: 100%;
+    }
+
+    .the-issue p{
+        text-align: left;
+        margin: 2rem 0rem 0rem 0rem;
+    }
+
+    .take-action div>h4{
+        font-size: 1.375rem;
+        line-height: 2.75rem;
+    }
+
+    .take-action div>p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .What-we-do{
+        padding: 4rem;
+    }
+
+    .What-we-do > .sub-heading{
+        margin-right: auto;
+    }
+
+    .What-we-do > h3{
+        width: 100%;
+        font-size: 2.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .What-we-do div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        position: static;
+        padding: 2rem;
+    }
+
+    .What-we-do div>img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .What-we-do div>button{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        align-self: self-end;
+        justify-self: self-end;
+        height: 2.5rem;
+    }
+
+    .What-we-do div>h4{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        align-self: self-start;
+        text-align: left;
+        top: 0rem;
+        font-size: 1.375rem;
+        width: 50%;
+        padding-left: 2rem;
+    }
+
+    .What-we-do div>p{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        align-self: self-end;
+        top: 0rem;
+        line-height: 1.5rem;
+        text-align: left;
+        padding-left: 2rem;
+        font-size: 1rem;
+        word-spacing: -0.01rem;
+    }
+
+    .did-you-know{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        padding: 4rem;
+    }
+
+    .did-you-know > button, .did-you-know > h1{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        width: 9.75rem;
+    }
+
+    .did-you-know > button{
+        margin-top: 17.5rem;
+    }
+
+    .did-you-know > div{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        padding-left: 4rem;
+        margin-top: 0rem;
+    }
+
+    .did-you-know > div > h4{
+        margin-left: 6rem;
+        width: 9.75rem;
+    }
+
+    .did-you-know-info{
+        margin-bottom: 2rem;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .did-you-know-info button{
+        margin-top: 0rem;
+    }
+
+    .did-you-know-info h3, .did-you-know-info p{
+        margin: 0rem;
+    }
+
+    .stories{
+        padding: 4rem;
+    }
+
+    .stories .sub-heading{
+        margin-left: 4rem;
+        width: 9.75rem;
+    }
+
+    .stories div{
+        width: 36rem;
+        margin: 0rem;
+    }
+
+    #stories-matter{
+        position: relative;
+        top: -4rem;
+        left: 4rem;
+        padding: 4rem;
+        margin: 0rem;
+        width: 70%;
+    }
+
+    #stories-matter h3{
+        font-size: 1.375rem;
+        line-height: 1.75rem;
+        text-align: left;
+    }
+
+    #stories-matter h6{
+        font-size: 0.875rem;
+        line-height: 1.063rem;
+        text-align: left;
+    }
+    
+    .stories > button{
+        position: relative;
+        margin: 0rem 4rem;
+        top: -2rem;
+        width: 9.75rem;
+    }
+
+    .Event{
+        padding: 4rem;
+    }
+
+    .Event h1{
+        text-align: left;
+        margin-bottom: 3.7rem;
+    }
+
+    .Event div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        --h5-lines: 3;
+    }
+
+    @media (min-width: 908px){
+        .Event div{
+            --h5-lines: 2;
+        }
+    }
+
+    .Event div> .sub-heading{
+        transform: translateY(0%);
+        width: 9.75rem;
+        margin-left: auto;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        align-self: self-start;
+        left: 0rem;
+    }
+
+    .Event div>h5{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        margin-right: 2rem;
+        text-align: left;
+        font-size: 1.75rem;
+        margin-top: 7.5vh;
+        line-height: 2.25rem;
+    }
+
+    .Event div>p{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        margin-right: 2rem;
+        text-align: left;
+        padding: 0;
+        font-size: 1rem;
+        margin-top: calc((var(--h5-lines) * 5vh) + 7.5vh);
+        margin-bottom: 10vh;
+        line-height: 1.5rem;
+        
+    }
+
+    .Event div>button{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        align-self: self-end;
+        margin: 0;
+    }
+
+    .Event div>img{
+        position: relative;
+        grid-column-start: 2;
+        width: 90%;
+        left: 10%;
+    }
+
+    .Event h1+div>.sub-heading{
+        grid-column-start: 2;
+        left: 2rem;
+    }
+
+    .Event h1+div>h5{
+        grid-column-start: 2;
+        margin-left: 2rem;
+        margin-right: 0rem;
+    }
+
+    .Event h1+div>p{
+        grid-column-start: 2;
+        margin-left: 2rem;
+        margin-right: 0rem;
+    }
+
+    .Event h1+div>button{
+        grid-column-start: 2;
+        margin-left: 2rem;
+        margin-right: 0rem;
+    }
+
+    .Event h1+div>img{
+        left: 0%;
+        grid-column-start: 1;
+    }
+
+    .subscribe{
+        padding: 4rem;
+    }
+
+    .subscribe > h4{
+        width: 67.5%
+    }
+
+    input[type="email"]{
+        width: 67.5%;
+        text-align: left;
+        padding: 0 2.5%;
+    }
+
+    input[type="submit"]{
+        width: 22.5%;
+    }
+
+    footer{
+        padding: 4rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    footer a{
+        font-size: 0.875rem;
+    }
+
+    #learn-more{
+        grid-column-start: 2;
+    } 
+
+    footer h1{
+        text-align: left;
+        grid-column-start: 3;
+    }
+
+}
+
+@media (min-width: 1024px){
+    header{
+        padding-left: 10rem;
+        padding-right: 10rem;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    header > ul{
+        order: 0;
+        margin: 0%;
+        width: 60%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header > button{
+        margin: 0;
+    }
+
+    .the-issue{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 8rem 10rem; 
+        justify-content: space-between;
+    }
+
+    .the-issue h3{
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+    }
+
+    .the-issue div{
+        width: 50%;
+    }
+
+    h1{
+        font-size: 4.5rem;
+    }
+
+    .take-action{
+        padding: 4.75rem 10rem;
+    }
+
+    .take-action > div{
+        flex-wrap: nowrap;
+    }
+
+    .take-action div h4{
+        font-size: 1.75rem;
+    }
+
+    .What-we-do{
+        padding: 4.75rem 10rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .What-we-do > h4{
+        grid-column: 1/4;
+    }
+
+    .What-we-do h3{
+        width: 100%;
+        margin: 2.5rem 0rem;
+        font-size: 2.75rem;
+        grid-column: 1 / 4;
+    }
+
+    .What-we-do div{
+        display: flex;
+        margin-right: 4rem;
+        padding: 0%;
+    }
+
+    .What-we-do div > img{
+        position: static;
+        transform: translate(+10%, -10%);
+    }
+
+    .What-we-do div > h4{
+        width: 80%;
+        padding: 0rem 2rem;
+        font-size: 1.75rem;
+    }
+
+    .What-we-do div>p{
+        padding-right: 2rem;
+        margin-top: 0.625rem;
+    }
+
+    .What-we-do div >button{
+        align-self: self-start;
+        margin: 2rem;
+    }
+
+    .did-you-know-info{
+        padding: 4rem;
+    }
+
+    .did-you-know-info > h3{
+        font-size: 2.75rem;
+    }
+
+    .did-you-know-info > p{
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        margin-top: 0.313rem;
+    }
+
+    .did-you-know{
+        padding: 8rem 10rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .did-you-know > button{
+        margin-top: 22.5rem;
+    }
+
+    .did-you-know > h1{
+        width: 27.313rem;
+    }
+
+    .did-you-know > div{
+        padding: 0%;
+    }
+
+    .stories{
+        padding: 8rem 10rem;
+    }
+
+    #stories-matter h3{
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    .stories div{
+        position: relative;
+        width: 60%;
+        left: 40%;
+    }
+
+    #stories-matter{
+        position: absolute;
+        max-width: 26.75%;
+        max-height: 32.5%;
+        top: 25%;
+        left: 10%;
+    }
+
+    .stories button{
+        position: absolute;
+        top: auto;
+        bottom: 8rem;
+        left: 10%;
+        margin: 0%;
+    }
+
+    .Event{
+        padding: 8rem 10rem;
+    }
+
+    .Event div > h5{
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+    }
+
+    .Event div > p{
+        font-size: 1.25rem;
+        line-height: 2rem;
+        --h5-lines: 4.5;
+    }
+
+    .subscribe{
+        padding: 4rem 10rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .subscribe h4{
+        width: 50%;
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+        margin: 0rem;
+    }
+
+    .subscribe form{
+        width: 50%;
+        justify-content: space-around;
+    }
+
+    input[type="email"]{
+        width: 60%;
+        font-size: 1.25rem;
+    }
+
+    input[type="submit"]{
+        width: 20%;
+    }
+
+    footer{
+        padding: 8rem 10rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer h1{
+        font-size: 2.75rem;
+        line-height: 2.875rem;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px){
+    header, .the-issue, .take-action, .What-we-do, .did-you-know, .stories, .Event, .subscribe, footer{
+        padding: 4rem;
+    }
+
+    .stories button{
+        bottom: 4rem;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1383px){
+    #stories-matter h3{
+        font-size: 1.375rem;
+        line-height: 1.75rem;
+    }
+}

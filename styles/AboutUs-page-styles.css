@@ -1,0 +1,897 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+button{
+    width: 100%;
+    height: 2.5rem;
+    font-family: Helvetica, bold;
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #354463;
+    background-color: #C1F7D5;
+    border-radius: 100px;
+    border: none;
+}
+
+li{
+    list-style-type: none;
+    margin: 0.375rem;
+}
+
+ul{
+    margin: 0px 0px 1.25rem 0px;
+}
+
+a{
+    color: #354463;
+    font-family: Helvetica;
+    font-weight: lighter;
+    line-height: 1.25rem;
+    text-decoration: none;
+    font-size: 0.875rem;
+    letter-spacing: -0.009rem;
+}
+
+.the-issue{
+    background-image: url("../assets/assets/about-us/annie-spratt-427339-unsplash.png");
+    padding: 2rem;
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: "Flood Std";
+    src: url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.eot");
+    src: url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.svg#Flood Std")format("svg");
+}
+
+h1{
+    font-family: "Flood Std";
+    color: white;
+    font-size: 2.75rem;
+    margin: 0px 0px 8.5rem 0px;
+    font-weight: normal;
+}
+
+section, div{
+    position: relative;
+}
+section{
+    padding: 2rem;
+}
+
+.the-issue > div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding: 2.5rem 2rem;
+}
+
+.sub-heading{
+    position: absolute;
+    background-color: #354463;
+    color: white;
+    padding: 0.75rem 0px;
+    left: 0px;
+    top: 0px;
+    margin: 0px 30%;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 0.875rem;
+    width: 40%;
+    text-align: center;
+    letter-spacing: 0.035rem;
+    transform: translateY(-50%);
+}
+
+h3{
+    text-align: center;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    width: 85%;
+    margin: 0px 0px 0px 0px;
+    color: #354463;
+    font-family: Helvetica, bold;
+}
+
+.logo{
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    text-align: left;
+    width: auto;
+    align-self: center;
+    margin: 0px;
+}
+
+.mission-and-values, .our-impact, .Event{
+    background-color: #354463;
+    justify-content: center;
+}
+
+.mission-and-values >.sub-heading, .Event .sub-heading,
+.our-impact .sub-heading{
+    background-color: white;
+    color: #354463;
+}
+
+.mission-and-values{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission-and-values > .sub-heading, .our-team > .sub-heading, .our-impact > .sub-heading{
+    position: static;
+    font-size: 0.875rem;
+    padding: 0.688rem;
+    transform: translateY(0%);
+}
+
+.mission-and-values > h3{
+    color: white;
+    margin-top: 1.375rem;
+    width: 90%;
+}
+
+.mission-and-values >div{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin-top: 4.125rem;
+}
+
+.mission-and-values > div >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 0.875rem;
+    margin-bottom: 1.75rem;
+}
+
+.mission-and-values h4{
+    color: white;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin: 0.75rem 0 0.375rem 0;
+    font-family: Helvetica;
+}
+
+.mission-and-values p{
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 0.875rem;
+    font-stretch: -0.009rem;
+    line-height: 1.25rem;
+    color: white;
+    margin: 0rem;
+}
+
+.mission-and-values img{
+    width: 2.5rem;
+}
+
+.our-team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-team > h3{
+    margin: 1.688rem 0;
+}
+
+.our-team > p{
+    font-size: 0.875rem;
+    text-align: center;
+    color: #354463;
+    font-family: Helvetica;
+    line-height: 1.25rem;
+    margin: 0rem;
+    padding: 0% 7.5%;
+}
+
+#persons{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+#persons > div{
+    margin: 0 0.875rem;
+}
+
+#persons > div > h6{
+    position: relative;
+    background-color: #354463;
+    color: white;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+    padding: 10%;
+    top: -0.25rem;    
+}
+
+#persons img{
+    width: 100%;
+}
+
+.our-impact{
+    background-image: url("../assets/assets/about-us/Impact\ Background.png");
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-impact > h3{
+    color: white;
+    margin: 2rem 0rem;
+    width: 100%;
+}
+
+.our-impact > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-impact > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.our-impact > div > div > h4{
+    font-family: "Flood Std";
+    text-align: center;
+    font-size: 2.75rem;
+    font-weight: normal;
+    margin: 0rem;
+}
+
+.our-impact > div > div > h5{
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin: 0rem;
+    width: 55%;
+}
+
+.Event h1{
+    margin: 2.313rem 0rem 4.563rem 0rem;
+    text-align: center;
+}
+
+.Event img{
+    width: 100%;
+}
+
+.Event h5{
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.375rem;
+    color: #354463;
+    margin: 1.875rem 0rem;
+    line-height: 1.75rem;
+}
+
+.Event p{
+    color: #354463;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: lighter;
+    padding: 0% 7.5%;
+    font-size: 1rem;
+    margin-bottom: 1.75rem;
+    line-height: 1.25rem;
+}
+
+.Event button{
+    width: 50%;
+    margin: 0% 25% 2.5rem;
+}
+
+.slides{
+    background-color: white;
+    display: none;
+}
+
+.Event img + .slides{
+    display: block;
+}
+
+.Event > div >img{
+    width: 1.75rem;
+    height: 1.75rem;
+    padding: 2.6%;
+    border-radius: 50%;
+    background-color: #C1F7D5;
+    position: absolute;
+    z-index: 1;
+    right: 2.5%;
+    top: 25%;
+}
+
+.dot-container{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: white;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.0625rem;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+#dot-1{
+    background-color: transparent;
+}
+
+.subscribe{
+    background-color: #C1F7D5;
+    padding-right: 1.375rem;
+}
+
+.subscribe h4{
+    color: #354463;
+    font-family: Helvetica;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    margin: 0.25rem 0rem 1.875rem 0rem;
+}
+
+.subscribe form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe input{
+    border: 0rem;
+    border-radius: 100px;
+    height: 2.5rem;
+    text-align: center;
+}
+
+input[type = "email"]{
+    width: 60%;
+    font-size: 0.875rem;
+    color: #354463;
+}
+
+input[type = "submit"]{
+    width: 33.33%;
+    margin-right: 0.625rem;
+    background-color: #354463;
+    color: #C1F7D5;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem; 
+}
+
+footer{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: #354463;
+}
+
+ul, li{
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+footer > div > h6{
+    margin: 0rem;
+    font-family: Helvetica;
+    font-weight: normal;
+    font-size: 0.688rem;
+}
+
+footer > div{
+    margin-bottom: 2.875rem;
+}
+
+footer .logo{
+    align-self: self-start;
+}
+
+footer p{
+    font-family: Helvetica;
+    font-size: 0.875rem;
+}
+
+footer a{
+    text-decoration: underline;
+    text-decoration-color: #354463;
+}
+
+footer h1{
+    color: #354463;
+    text-align: right;
+    margin: 0rem;
+    grid-column-start: 2;
+}
+
+footer{
+    padding: 4.188rem 2rem;
+}
+
+@media(min-width: 768px){
+    header > ul{
+        order: 1;
+        display: flex;
+        width: 60%;
+        margin-right: 40%;
+        margin-bottom: 0%;
+        justify-content: space-between;
+    }
+
+    a{
+        font-size: 1rem;
+    }
+
+    button{
+        margin-top: 1.25rem;
+        width: 8.75rem;
+        height: 3rem;
+    }
+
+    header{
+        padding: 1.25rem 4rem;
+    }
+
+    .logo{
+        font-size: 1.375rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .the-issue{
+        padding: 4rem;
+    }
+
+    h1{
+        margin-bottom: 5.875rem;
+    }
+
+    .the-issue{
+        background-image: url("../assets/assets/about-us/annie-spratt-427339-unsplash@2x.png");
+        background-position: center;
+    }
+
+    .sub-heading{
+        font-size: 0.875rem;
+        width: 20.4%;
+        top: 0px;
+        margin: 0 39.8%;
+    }
+
+    .the-issue .sub-heading{
+        margin-left: 4rem;
+        width: 9.75rem;
+    }
+
+    .the-issue > div{
+        padding: 4rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+        text-align: left;
+        line-height: 2.25rem;
+        width: 100%;
+        margin-top: 0rem;
+    }
+
+    .the-issue a{
+        width: 100%;
+    }
+
+    .the-issue p{
+        text-align: left;
+        margin: 2rem 0rem 0rem 0rem;
+    }
+
+    .mission-and-values{
+        padding: 4rem;
+    }
+
+    .mission-and-values > .sub-heading{
+        margin-right: auto;
+        width: 10rem;
+        margin-top: 0;
+    }
+
+    .mission-and-values > h3{
+        width: 100%;
+        font-size: 1.75rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .mission-and-values > div{
+        margin-top: 2.25rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .mission-and-values div>h4{
+        font-size: 1.375rem;
+    }
+
+    .our-team{
+        padding: 4rem;
+    }
+
+    .our-team .sub-heading{
+        margin-right: calc(100% -9.75rem);
+        margin-left: 0rem;
+        width: 9.75rem;
+    }
+
+    .our-team{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .our-team > h3, .our-team > p{
+        width: 47.5%;
+        padding: 0%;
+        text-align: left;
+    }
+    
+    .our-team > h3{
+        font-size: 2.25rem;
+        line-height: 2.875rem;
+    }
+
+    .our-team > p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #persons > div{
+        margin: 0rem;
+        margin-right: 4rem;
+    }
+
+    #persons > div > h6{
+        padding: 5%;
+        transform: translate(11.5%, -50%);
+    }
+
+    .our-impact{
+        padding: 4rem;
+    }
+
+    .our-impact > h3{
+        font-size: 2.25rem;
+        line-height: 2.875rem;
+    }
+
+    .our-impact > div{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .our-impact > div > div{
+        margin-bottom: 3.5rem;
+    }
+
+    .our-impact > div > div > h4{
+        font-size: 4.5rem;
+        line-height: 4.75rem;
+    }
+
+    .our-impact > div > div > h5{
+        font-size: 1.375rem;
+        line-height: 1.75rem;
+        margin-top: 1rem;
+        width: 67%;
+    }
+
+    .Event{
+        padding: 4rem;
+    }
+
+    .Event h1{
+        text-align: left;
+        margin-bottom: 3.7rem;
+    }
+
+    .slides{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 2rem;
+        text-align: left;
+    }
+
+    .slides > h5, .slides > p{
+        text-align: left;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .slides > h5{
+        margin-bottom: 0rem;
+    }
+
+    .slides > p{
+        margin-bottom: 1.75rem;
+    }
+
+    .slides > button{
+        margin-left: 2rem;
+        height: 2.5rem;
+    }
+
+    .Event > div{
+        position: static;
+        display: flex;
+        width: 200%;
+    }
+
+    .dot-container{
+        display: none;
+    }
+
+    .Event > div > img{
+        top: 7.5rem;
+        right: 4rem;
+    }
+
+    .subscribe{
+        padding: 4rem;
+    }
+
+    .subscribe > h4{
+        width: 67.5%
+    }
+
+    input[type="email"]{
+        width: 67.5%;
+        text-align: left;
+        padding: 0 2.5%;
+    }
+
+    input[type="submit"]{
+        width: 22.5%;
+    }
+
+    footer{
+        padding: 4rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    footer a{
+        font-size: 0.875rem;
+    }
+
+    #learn-more{
+        grid-column-start: 2;
+    } 
+
+    footer h1{
+        text-align: left;
+        grid-column-start: 3;
+    }
+
+}
+
+@media (min-width: 1024px){
+    header{
+        padding: 2rem 10rem;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    header > ul{
+        order: 0;
+        margin: 0%;
+        width: 60%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header > button{
+        margin: 0;
+    }
+
+    .the-issue h3{
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    .the-issue div{
+        width: calc(50% - 20rem);
+        position: absolute;
+        z-index: 1;
+        bottom: -15%;
+        right: 10rem;
+    }
+
+    h1{
+        font-size: 4.5rem;
+    }
+
+    .mission-and-values{
+        padding: 4.75rem 10rem;
+    }
+
+    .mission-and-values .sub-heading{
+        margin-top: 4rem;
+    }
+
+    .mission-and-values > h3{
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+        margin: 0rem;
+    }
+
+    .mission-and-values > div{
+        margin-top: 8rem;
+        grid-template-columns: repeat(4, 25%);
+    }
+
+    .mission-and-values > div > div > img{
+        height: 3.5rem;
+        width: auto;
+    }
+
+    .mission-and-values > div > div > h4{
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+        margin-top: 1.5rem;
+    }
+
+    .mission-and-values > div > div > p{
+        font-size: 1rem;
+        margin-top: 0.688rem;
+    }
+
+    .mission-and-values > div >div{
+        margin-bottom: 3.75rem;
+        margin-right: 2rem;
+    }
+
+    .our-team{
+        padding: 8rem 10rem;
+    }
+
+    .our-team > p{
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+    }
+
+    #persons{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .our-impact{
+        padding: 8rem 10rem;
+    }
+
+    .our-impact > div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .our-impact > div > div > h5{
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+        width: 19vw;
+    }
+
+    .our-impact > div > div{
+        justify-content: space-between;
+    }
+
+    .Event{
+        padding: 8rem 10rem;
+    }
+
+    .Event div > h5{
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    .Event div > p{
+        font-size: 1.25rem;
+        line-height: 2rem;
+        --h5-lines: 4.5;
+    }
+
+    .Event > div > div > button{
+        width: 10rem;
+        height: 3rem;
+    }
+
+    .Event > div{
+        width: 185%;
+    }
+
+    .subscribe{
+        padding: 4rem 10rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .subscribe h4{
+        width: 50%;
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+        margin: 0rem;
+    }
+
+    .subscribe form{
+        width: 50%;
+        justify-content: space-around;
+    }
+
+    input[type="email"]{
+        width: 60%;
+        font-size: 1.25rem;
+    }
+
+    input[type="submit"]{
+        width: 20%;
+    }
+
+    footer{
+        padding: 8rem 10rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer h1{
+        font-size: 2.75rem;
+        line-height: 2.875rem;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px){
+    header, .the-issue, .mission-and-values, .our-team, .our-impact, .Event, .subscribe, footer{
+        padding: 4rem;
+    }
+
+    .the-issue div{
+        width: calc(50% - 8rem);
+        right: 4rem;
+    }
+
+}
