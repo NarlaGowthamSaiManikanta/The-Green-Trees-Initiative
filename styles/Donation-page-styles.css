@@ -15,6 +15,11 @@ a{
     text-decoration: underline;
     letter-spacing: -0.009rem;
     margin-top: 1.5rem;
+    
+}
+
+a:visited{
+    color: #354463;
 }
 
 input[type="submit"]{
@@ -241,6 +246,10 @@ option{
 
 input:focus, select:focus{
     outline: none;
+}
+
+input[type="submit"]:hover{
+    background-color: #8cffb4;
 }
 
 @media(min-width: 768px){
