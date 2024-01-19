@@ -74,6 +74,7 @@ section{
 
 button:hover{
     background-color: #8cffb4;
+    cursor: pointer;
 }
 
 .the-issue > div{

@@ -250,6 +250,7 @@ input:focus, select:focus{
 
 input[type="submit"]:hover{
     background-color: #8cffb4;
+    cursor: pointer;
 }
 
 @media(min-width: 768px){
