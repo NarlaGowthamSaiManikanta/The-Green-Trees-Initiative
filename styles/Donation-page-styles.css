@@ -157,7 +157,6 @@ label{
 
 form > div{
     display: grid;
-    grid-template-areas: 'left middle middle right';
     grid-template-columns: repeat(4, 25%);
     margin-bottom: 3.438rem;
 }
@@ -236,7 +235,12 @@ select{
 }
 
 option{
-    background-color: white;
+    background-color: #C1F7D5;
+    color: #354463;
+}
+
+input:focus, select:focus{
+    outline: none;
 }
 
 @media(min-width: 768px){
