@@ -1,4 +1,4 @@
-body{
+body {
     text-align: center;
     color: #354463;
     height: 100vh;
@@ -6,8 +6,9 @@ body{
     margin: 0rem;
 }
 
-header{
+header {
     background-color: white;
+    padding: 1rem;
     margin: 0rem;
     height: 10vh;
     display: flex;
@@ -15,26 +16,29 @@ header{
     align-items: center;
 }
 
-h2, h3, h4{
+h2,
+h3,
+h4 {
     font-family: Helvetica;
+    padding: 0 5%;
 }
 
-h2{
+h2 {
     font-size: 2rem;
     margin-bottom: 0rem;
 }
 
-h4{
+h4 {
     font-size: 1.5rem;
     font-weight: normal;
 }
 
-button{
+button {
     background-color: #354463;
     color: #C1F7D5;
     border-radius: 20px;
-    padding: 0.75%;
+    padding: 1vh 2.5%;
     font-size: large;
     border: none;
-    margin: 0 7.5%;
+    margin: 0 7.5% 1rem;
 }

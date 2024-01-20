@@ -1,13 +1,14 @@
-body{
+body {
     margin: 0px;
 }
-header{
+
+header {
     display: flex;
     padding: 1.313rem 2rem;
     justify-content: center;
 }
 
-a{
+a {
     font-family: Helvetica;
     font-weight: lighter;
     line-height: 1.25rem;
@@ -15,14 +16,14 @@ a{
     text-decoration: underline;
     letter-spacing: -0.009rem;
     margin-top: 1.5rem;
-    
+
 }
 
-a:visited{
+a:visited {
     color: #354463;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     width: 100%;
     height: 3.063rem;
     font-family: Helvetica, bold;
@@ -36,7 +37,7 @@ input[type="submit"]{
     text-align: center;
 }
 
-section{
+section {
     background-image: url("../assets/assets/donation/annie-spratt-427340-unsplash.png");
     padding: 2rem;
     background-size: cover;
@@ -48,13 +49,13 @@ section{
     font-family: "Flood Std";
     src: url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.eot");
     src: url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.svg#Flood Std")format("svg");
+        url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.svg#Flood Std")format("svg");
 }
 
-h1{
+h1 {
     font-family: "Flood Std";
     color: white;
     font-weight: normal;
@@ -64,7 +65,7 @@ h1{
     text-align: center;
 }
 
-.logo{
+.logo {
     font-family: Helvetica;
     color: #354463;
     font-size: 1.125rem;
@@ -75,7 +76,7 @@ h1{
     margin: 0px;
 }
 
-footer{
+footer {
     padding: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -83,43 +84,44 @@ footer{
     color: #354463;
 }
 
-ul, li{
+ul,
+li {
     padding-left: 0%;
     margin-left: 0%;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-footer > div > h6{
+footer>div>h6 {
     margin: 0rem;
     font-family: Helvetica;
     font-weight: normal;
     font-size: 0.688rem;
 }
 
-footer > div{
+footer>div {
     margin-bottom: 2.875rem;
 }
 
-footer .logo{
+footer .logo {
     justify-self: self-start;
     align-self: self-start;
     text-align: left;
 }
 
-footer p{
+footer p {
     font-family: Helvetica;
     font-size: 0.875rem;
 }
 
-footer a{
+footer a {
     text-decoration: underline;
     text-decoration-color: #354463;
 }
 
-footer h1{
+footer h1 {
     color: #354463;
     text-align: right;
     margin: 0rem;
@@ -129,16 +131,16 @@ footer h1{
     line-height: 2.875rem;
 }
 
-footer{
+footer {
     padding: 4.188rem 2rem;
 }
 
-form{
+form {
     background-color: #354463;
     padding: 2rem;
 }
 
-h4{
+h4 {
     font-size: 1.375rem;
     margin-top: 0rem;
     margin-bottom: 1rem;
@@ -147,73 +149,81 @@ h4{
     color: white;
 }
 
-label{
-    color:white;
-    text-transform:uppercase;
+label {
+    color: white;
+    text-transform: uppercase;
     font-size: 0.688rem;
     font-family: Helvetica;
 }
 
-.form-inputs{
+.form-inputs {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.625rem;
 }
 
-form > div{
+form>div {
     display: grid;
     grid-template-columns: repeat(4, 25%);
     margin-bottom: 3.438rem;
 }
 
-form > div > h4, #street-address, #email, #card-num{
+form>div>h4,
+#street-address,
+#email,
+#card-num {
     grid-column: 1 /span 4;
 }
 
-form > h4{
+form>h4 {
     font-size: 1.125rem;
     line-height: 1.375rem;
     margin-bottom: 2rem;
 }
 
-#first-name, #city, #expiry-date{
+#first-name,
+#city,
+#expiry-date {
     grid-column: 1/span 2;
     padding-right: 0.5rem;
 }
 
-#city{
+#city {
     grid-column: 1/span 1;
 }
 
-#expiry-date{
+#expiry-date {
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-#expiry-date > label{
+#expiry-date>label {
     width: 100%;
 }
 
-#expiry-date > input[name="year"]{
+#expiry-date>input[name="year"] {
     margin-left: 0.5rem;
     width: calc(47% - 0.5rem);
 }
 
-#expiry-date > input[name="month"]{
+#expiry-date>input[name="month"] {
     margin-right: 0.5rem;
     width: calc(47.5% - 0.5rem);
 }
 
-#state{
+#state {
     padding: 0 0.5rem;
 }
 
-#last-name, #security-code, #zipcode{
+#last-name,
+#security-code,
+#zipcode {
     grid-column: 3/span 2;
     padding-left: 0.5rem;
 }
 
-input, select{
+input,
+select {
     height: 2rem;
     text-align: left;
     background: none;
@@ -225,40 +235,41 @@ input, select{
     border-bottom: 0.125rem solid #C1F7D5;
 }
 
-form > a{
+form>a {
     color: #C1F7D5;
 }
 
-::placeholder{
+::placeholder {
     opacity: 20%;
 }
 
-select{
+select {
     height: 2.25rem;
     font-size: 0.75rem;
-    color:#C1F7D5;
+    color: #C1F7D5;
 }
 
-option{
+option {
     background-color: #C1F7D5;
     color: #354463;
 }
 
-input:focus, select:focus{
+input:focus,
+select:focus {
     outline: none;
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
     background-color: #8cffb4;
     cursor: pointer;
 }
 
-@media(min-width: 768px){
-    section{
+@media(min-width: 768px) {
+    section {
         padding: 4rem;
     }
 
-    h1{
+    h1 {
         font-size: 2.75rem;
         line-height: 2.875rem;
         padding-left: 4rem;
@@ -266,87 +277,92 @@ input[type="submit"]:hover{
         margin-bottom: 2rem;
     }
 
-    h4{
+    h4 {
         font-size: 1.75rem;
         line-height: 2.25rem;
         margin-bottom: 1.813rem;
     }
 
-    label{
+    label {
         font-size: 0.875rem;
         word-spacing: 0.035rem;
     }
 
-    input, select{
+    input,
+    select {
         font-size: 1.25rem;
     }
 
-    form{
+    form {
         padding: 4rem;
     }
 
-    #first-name, #city, #expiry-date{
+    #first-name,
+    #city,
+    #expiry-date {
         padding-right: 1rem;
     }
 
-    #expiry-date > input[name="year"]{
+    #expiry-date>input[name="year"] {
         margin-left: 1rem;
         width: calc(47% - 1rem);
     }
-    
-    #expiry-date > input[name="month"]{
+
+    #expiry-date>input[name="month"] {
         margin-right: 1rem;
         width: calc(47% - 1rem);
     }
 
-    #last-name, #security-code, #zipcode{
+    #last-name,
+    #security-code,
+    #zipcode {
         padding-left: 1rem;
     }
 
-    form > h4{
+    form>h4 {
         font-size: 1.75rem;
         line-height: 2.25rem;
         margin-bottom: 2.813rem;
     }
 
-    input[type="submit"]{
+    input[type="submit"] {
         width: 50%;
         margin-left: 50%;
         margin-bottom: 0rem;
         font-size: 1.375rem;
     }
 
-    form{
+    form {
         position: relative;
     }
 
-    form > a{
+    form>a {
         position: absolute;
         bottom: 4rem;
         left: 4rem;
         font-size: 1rem;
     }
 
-    footer{
+    footer {
         padding: 4rem;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
 
-    footer .logo{
+    footer .logo {
         font-size: 1.375rem;
         line-height: 1.75rem;
     }
 
-    footer a{
+    footer a {
         font-size: 0.875rem;
     }
 
-    #learn-more{
+    #learn-more {
         grid-column-start: 2;
-    } 
+    }
 
-    footer h1{
+    footer h1 {
         text-align: left;
         grid-column-start: 3;
         padding: 0rem;
@@ -354,51 +370,53 @@ input[type="submit"]:hover{
 
 }
 
-@media (min-width: 1024px){
-    footer{
+@media (min-width: 1024px) {
+    footer {
         padding: 8rem 10rem;
         display: flex;
         justify-content: space-between;
     }
 
-    footer h1{
+    footer h1 {
         font-size: 2.75rem;
         line-height: 2.875rem;
     }
 
-    header{
+    header {
         padding-top: 1.75rem;
         padding-bottom: 1.75rem;
     }
 
-    .logo{
+    .logo {
         font-size: 1.75rem;
         line-height: 2.25rem;
     }
 
-    section{
+    section {
         padding: 5rem 10rem 8rem 10rem;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
     }
 
-    form{
+    form {
         width: 45.625%;
     }
-    
-    section > h1{
+
+    section>h1 {
         padding: 0;
         font-size: 4.5rem;
         line-height: 4.75rem;
         padding-left: 6rem;
-        text-align: left;    
+        text-align: left;
     }
 
 }
 
-@media (min-width: 1024px) and (max-width: 1280px){
-    section, footer{
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    section,
+    footer {
         padding: 4rem;
     }
 }

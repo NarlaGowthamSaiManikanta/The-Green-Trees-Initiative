@@ -1,109 +1,113 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Donation Page</title>
-        <link rel="Stylesheet" href="styles/Donation-page-styles.css">
-    </head>
-    <body>
-        <header>
-            <h3 class="logo">The Green<br>Trees Initiative</h3>
-        </header>
-        <section>
-            <h1>Give Hope to those who need it most</h1>
-            <form action="Home-page-layout.html">
-                <div id="person-info">
-                    <h4>Your information</h4>
-                    <div id="first-name" class="form-inputs">
-                        <label>first name</label>
-                        <input name="first-name" placeholder="First name">
-                    </div>
-                    <div id="last-name" class="form-inputs">
-                        <label>last name</label>
-                        <input name="last-name" placeholder="Last name">
-                    </div>
-                    <div id="street-address" class="form-inputs">
-                        <label>street address</label>
-                        <input name="street-address" placeholder="Street address">
-                    </div>
-                    <div id="city" class="form-inputs">
-                        <label>City</label>
-                        <input name="city" placeholder="City">
-                    </div>
-                    <div id="state" class="form-inputs">
-                        <label>state</label>
-                        <select name="state">
-                            <option value="" selected disabled hidden>STATE</option>
-                            <option value="State 1">State 1</option>
-                            <option value="State 2">State 2</option>
-                            <option value="State 3">State 3</option>
-                            <option value="State 4">State 4</option>
-                            <option value="State 5">State 5</option>
-                            <option value="State 6">State 6</option>
-                        </select>
-                    </div>
-                    <div id="zipcode" class="form-inputs">
-                        <label>zip code</label>
-                        <input name="zipcode" placeholder="Zip code">
-                    </div>
-                    <div id="email" class="form-inputs">
-                        <label>Email address</label>
-                        <input type="email" name="email" placeholder="Email address">
-                    </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Donation Page</title>
+    <link rel="Stylesheet" href="styles/Donation-page-styles.css">
+</head>
+
+<body>
+    <header>
+        <h3 class="logo">The Green<br>Trees Initiative</h3>
+    </header>
+    <section>
+        <h1>Give Hope to those who need it most</h1>
+        <form action="Home-page-layout.html">
+            <div id="person-info">
+                <h4>Your information</h4>
+                <div id="first-name" class="form-inputs">
+                    <label>first name</label>
+                    <input name="first-name" placeholder="First name">
                 </div>
-
-                <div id="payment-info">
-                    <h4>Payment information</h4>
-                    <div id="card-num" class="form-inputs">
-                        <label>credit card number</label>
-                        <input name="card-num" placeholder="Credit card number">
-                    </div>
-                    <div id="expiry-date" class="form-inputs">
-                        <label>expiration date</label>
-                        <input name="month" placeholder="MM">
-                        <input name="year" placeholder="YYYY">
-                    </div>
-                    <div id="security-code" class="form-inputs">
-                        <label>security code</label>
-                        <input name="security-code" placeholder="CVC">
-                    </div>
+                <div id="last-name" class="form-inputs">
+                    <label>last name</label>
+                    <input name="last-name" placeholder="Last name">
                 </div>
-
-                <h4>
-                    Click the button to confirm your donation of $10, recurring monthly.
-                </h4>
-
-                <input type="submit" value="Process Payment">
-
-                <a href="javascript:history.back()">Go back</a>
-            </form>
-        </section>
-        <footer>
-            <h3 class="logo">The Green<br>Trees<br>Initiative</h3>
-            <div>
-                <h6>CONTACT US</h6>
-                <p>123 Anywhere St.<br>Cityname, NY 11206<br>
-                    (123) 456-7890<br>contact@npo.org</p>
+                <div id="street-address" class="form-inputs">
+                    <label>street address</label>
+                    <input name="street-address" placeholder="Street address">
+                </div>
+                <div id="city" class="form-inputs">
+                    <label>City</label>
+                    <input name="city" placeholder="City">
+                </div>
+                <div id="state" class="form-inputs">
+                    <label>state</label>
+                    <select name="state">
+                        <option value="" selected disabled hidden>STATE</option>
+                        <option value="State 1">State 1</option>
+                        <option value="State 2">State 2</option>
+                        <option value="State 3">State 3</option>
+                        <option value="State 4">State 4</option>
+                        <option value="State 5">State 5</option>
+                        <option value="State 6">State 6</option>
+                    </select>
+                </div>
+                <div id="zipcode" class="form-inputs">
+                    <label>zip code</label>
+                    <input name="zipcode" placeholder="Zip code">
+                </div>
+                <div id="email" class="form-inputs">
+                    <label>Email address</label>
+                    <input type="email" name="email" placeholder="Email address">
+                </div>
             </div>
-            <div>
-                <h6>FOLLOW US</h6>
-                <ul>
-                    <li><a>Facebook</a></li>
-                    <li><a>Twitter</a></li>
-                    <li><a>Instagram</a></li>
-                    <li><a>Medium</a></li>
-                </ul>
+
+            <div id="payment-info">
+                <h4>Payment information</h4>
+                <div id="card-num" class="form-inputs">
+                    <label>credit card number</label>
+                    <input name="card-num" placeholder="Credit card number">
+                </div>
+                <div id="expiry-date" class="form-inputs">
+                    <label>expiration date</label>
+                    <input name="month" placeholder="MM">
+                    <input name="year" placeholder="YYYY">
+                </div>
+                <div id="security-code" class="form-inputs">
+                    <label>security code</label>
+                    <input name="security-code" placeholder="CVC">
+                </div>
             </div>
-            <div id="learn-more">
-                <h6>LEARN MORE</h6>
-                <ul>
-                    <li><a href="Home-page-layout.html#the-issue">The issue</a></li>
-                    <li><a href="AboutUs-page-layout.html#mission-and-values">How we help</a></li>
-                    <li><a href="Donation-page-layout.html">Get involved</a></li>
-                    <li><a href="Home-page-layout.html#latest-news">Latest news</a></li>
-                </ul>
-            </div>
-            <h1>#STOP<br>CLIMATE<br>CHANGE</h1>
-        </footer>
-    </body>
+
+            <h4>
+                Click the button to confirm your donation of $10, recurring monthly.
+            </h4>
+
+            <input type="submit" value="Process Payment">
+
+            <a href="javascript:history.back()">Go back</a>
+        </form>
+    </section>
+    <footer>
+        <h3 class="logo">The Green<br>Trees<br>Initiative</h3>
+        <div>
+            <h6>CONTACT US</h6>
+            <p>123 Anywhere St.<br>Cityname, NY 11206<br>
+                (123) 456-7890<br>contact@npo.org</p>
+        </div>
+        <div>
+            <h6>FOLLOW US</h6>
+            <ul>
+                <li><a>Facebook</a></li>
+                <li><a>Twitter</a></li>
+                <li><a>Instagram</a></li>
+                <li><a>Medium</a></li>
+            </ul>
+        </div>
+        <div id="learn-more">
+            <h6>LEARN MORE</h6>
+            <ul>
+                <li><a href="Home-page-layout.html#the-issue">The issue</a></li>
+                <li><a href="AboutUs-page-layout.html#mission-and-values">How we help</a></li>
+                <li><a href="Donation-page-layout.html">Get involved</a></li>
+                <li><a href="Home-page-layout.html#latest-news">Latest news</a></li>
+            </ul>
+        </div>
+        <h1>#STOP<br>CLIMATE<br>CHANGE</h1>
+    </footer>
+</body>
+
 </html>

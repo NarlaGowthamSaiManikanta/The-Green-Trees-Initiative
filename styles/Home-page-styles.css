@@ -1,14 +1,15 @@
-body{
+body {
     margin: 0px;
 }
-header{
+
+header {
     display: flex;
     flex-wrap: wrap;
     padding: 2rem;
     justify-content: space-between;
 }
 
-button{
+button {
     width: 100%;
     height: 2.5rem;
     font-family: Helvetica, bold;
@@ -20,16 +21,16 @@ button{
     border: none;
 }
 
-li{
+li {
     list-style-type: none;
     margin: 0.375rem;
 }
 
-ul{
+ul {
     margin: 0px 0px 1.25rem 0px;
 }
 
-a{
+a {
     color: #354463;
     font-family: Helvetica;
     font-weight: lighter;
@@ -39,7 +40,7 @@ a{
     letter-spacing: -0.009rem;
 }
 
-.the-issue{
+.the-issue {
     background-image: url("../assets/assets/home/annie-spratt-135307-unsplash.png");
     padding: 2rem;
     background-size: cover;
@@ -52,13 +53,13 @@ a{
     font-family: "Flood Std";
     src: url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.eot");
     src: url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.svg#Flood Std")format("svg");
+        url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/bfbdc6a04609bff0d5ccdfcf6b766d95.svg#Flood Std")format("svg");
 }
 
-h1{
+h1 {
     font-family: "Flood Std";
     color: white;
     font-size: 2.75rem;
@@ -66,14 +67,16 @@ h1{
     font-weight: normal;
 }
 
-section, div{
+section,
+div {
     position: relative;
 }
-section{
+
+section {
     padding: 2rem;
 }
 
-.the-issue > div{
+.the-issue>div {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -81,7 +84,7 @@ section{
     margin-bottom: 1rem;
 }
 
-.sub-heading{
+.sub-heading {
     position: absolute;
     background-color: #354463;
     color: white;
@@ -98,7 +101,7 @@ section{
     transform: translateY(-50%);
 }
 
-h3{
+h3 {
     text-align: center;
     font-size: 1.375rem;
     line-height: 1.75rem;
@@ -108,7 +111,7 @@ h3{
     font-family: Helvetica, bold;
 }
 
-.logo{
+.logo {
     font-size: 1.125rem;
     line-height: 1.375rem;
     text-align: left;
@@ -117,28 +120,28 @@ h3{
     margin: 0px;
 }
 
-.the-issue p{
+.the-issue p {
     margin: 1.9rem 0px;
     text-align: center;
 }
 
-.the-issue a{
+.the-issue a {
     width: 75%;
     text-decoration: underline;
-    text-decoration-color:#354463;
+    text-decoration-color: #354463;
 }
 
-.take-action{
+.take-action {
     background-color: #C1F7D5;
     padding: 3.5rem 2.25rem;
     justify-content: center;
 }
 
-.take-action div{
+.take-action div {
     width: 47.5%;
 }
 
-.take-action > div{
+.take-action>div {
     width: 100%;
     margin: 0.5rem 0px;
     display: flex;
@@ -147,52 +150,55 @@ h3{
     justify-content: space-between;
 }
 
-.take-action > div h4,p{
+.take-action>div h4,
+p {
     margin: 0.28rem 0px;
     font-family: Helvetica;
     color: #354463;
 }
 
-.take-action > div h4{
+.take-action>div h4 {
     font-size: 1.125rem;
 }
 
-.take-action > div p{
+.take-action>div p {
     font-size: 0.875rem;
     font-weight: lighter;
     line-height: 1.25rem;
 }
 
-.What-we-do, .Event{
+.what-we-do,
+.event {
     background-color: #354463;
     justify-content: center;
 }
 
-.What-we-do >.sub-heading, .Event .sub-heading{
+.what-we-do>.sub-heading,
+.event .sub-heading {
     background-color: white;
     color: #354463;
 }
 
-.What-we-do{
+.what-we-do {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.What-we-do > .sub-heading{
+.what-we-do>.sub-heading {
     position: static;
     font-size: 0.875rem;
     padding: 0.688rem;
     transform: translateY(0%);
 }
 
-.What-we-do > h3{
+.what-we-do>h3 {
     color: white;
     margin-top: 1.375rem;
     width: 90%;
 }
 
-.What-we-do div{
+.what-we-do div {
     background-color: white;
     position: relative;
     padding: 2.5rem;
@@ -203,7 +209,7 @@ h3{
     align-items: center;
 }
 
-.What-we-do div>img{
+.what-we-do div>img {
     object-fit: cover;
     width: 100%;
     position: relative;
@@ -211,11 +217,11 @@ h3{
     aspect-ratio: 346/242.2;
 }
 
-img[alt = "tree-planting"]{
+img[alt="tree-planting"] {
     object-position: bottom;
 }
 
-.What-we-do h4{
+.what-we-do h4 {
     position: relative;
     text-align: center;
     font-family: Helvetica;
@@ -225,7 +231,7 @@ img[alt = "tree-planting"]{
     top: -2.5rem;
 }
 
-.What-we-do p{
+.what-we-do p {
     position: relative;
     top: -1.5rem;
     text-align: center;
@@ -237,12 +243,12 @@ img[alt = "tree-planting"]{
     color: #354463;
 }
 
-.What-we-do button{
+.what-we-do button {
     width: 50%;
     font-size: 1rem;
 }
 
-.did-you-know{
+.did-you-know {
     background-image: url("../assets/assets/home/did-you-know-background.png");
     background-size: cover;
     padding-top: 4rem;
@@ -250,20 +256,20 @@ img[alt = "tree-planting"]{
     background-position: left top;
 }
 
-.did-you-know > div{
+.did-you-know>div {
     margin-top: 5rem;
 }
 
-.did-you-know > h1{
+.did-you-know>h1 {
     margin-bottom: 1rem;
 }
 
-.did-you-know > button{
+.did-you-know>button {
     width: 50%;
     font-size: 1rem;
 }
 
-.did-you-know > div >h4{
+.did-you-know>div>h4 {
     z-index: 1;
 }
 
@@ -272,46 +278,46 @@ img[alt = "tree-planting"]{
     display: grid;
     grid-template-rows: 1fr 2fr;
     grid-template-columns: 8fr 2fr;
-    grid-auto-flow: column; 
+    grid-auto-flow: column;
     padding: 2rem;
     margin-bottom: 1rem;
     align-items: center;
 }
 
-.did-you-know-info > h3{
+.did-you-know-info>h3 {
     margin: 0.125rem 0rem 0.5rem 0rem;
     text-align: left;
 }
 
-.did-you-know-info > button{
+.did-you-know-info>button {
     height: 2rem;
     width: 2rem;
     justify-self: self-end;
 }
 
-.stories > div{
+.stories>div {
     margin-top: 1.5rem;
 }
 
-.stories img{
+.stories img {
     width: 100%;
 }
 
-#stories-matter{
+#stories-matter {
     background-color: #354463;
     color: white;
     padding: 2rem;
     margin: 2rem 0rem;
 }
 
-#stories-matter h3{
+#stories-matter h3 {
     color: white;
     text-align: center;
     margin: 0rem;
     width: 100%
 }
 
-#stories-matter h6{
+#stories-matter h6 {
     font-size: 0.688rem;
     font-weight: lighter;
     font-family: Helvetica;
@@ -319,21 +325,21 @@ img[alt = "tree-planting"]{
     margin-bottom: 0rem;
 }
 
-.stories button{
+.stories button {
     width: 50%;
     margin: 0% 25% 2.5rem;
 }
 
-.Event h1{
+.event h1 {
     margin: 2.313rem 0rem 4.563rem 0rem;
     text-align: center;
 }
 
-.Event img{
+.event img {
     width: 100%;
 }
 
-.Event h5{
+.event h5 {
     font-family: Helvetica;
     font-weight: bold;
     text-align: center;
@@ -343,7 +349,7 @@ img[alt = "tree-planting"]{
     line-height: 1.75rem;
 }
 
-.Event p{
+.event p {
     color: white;
     text-align: center;
     font-family: Helvetica;
@@ -354,21 +360,21 @@ img[alt = "tree-planting"]{
     line-height: 1.25rem;
 }
 
-.Event button{
+.event button {
     width: 50%;
     margin: 0% 25% 2.5rem;
 }
 
-.Event h1+div{
+.event h1+div {
     margin-bottom: 3.438rem;
 }
 
-.subscribe{
+.subscribe {
     background-color: #C1F7D5;
     padding-right: 1.375rem;
 }
 
-.subscribe h4{
+.subscribe h4 {
     color: #354463;
     font-family: Helvetica;
     font-size: 1.375rem;
@@ -376,35 +382,35 @@ img[alt = "tree-planting"]{
     margin: 0.25rem 0rem 1.875rem 0rem;
 }
 
-.subscribe form{
+.subscribe form {
     display: flex;
     justify-content: space-between;
 }
 
-.subscribe input{
+.subscribe input {
     border: 0rem;
     border-radius: 100px;
     height: 2.5rem;
     text-align: center;
 }
 
-input[type = "email"]{
+input[type="email"] {
     width: 60%;
     font-size: 0.875rem;
     color: #354463;
 }
 
-input[type = "submit"]{
+input[type="submit"] {
     width: 33.33%;
     margin-right: 0.625rem;
     background-color: #354463;
     color: #C1F7D5;
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
-footer{
+footer {
     padding: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -412,54 +418,55 @@ footer{
     color: #354463;
 }
 
-ul, li{
+ul,
+li {
     padding-left: 0%;
     margin-left: 0%;
 }
 
-footer > div > h6{
+footer>div>h6 {
     margin: 0rem;
     font-family: Helvetica;
     font-weight: normal;
     font-size: 0.688rem;
 }
 
-footer > div{
+footer>div {
     margin-bottom: 2.875rem;
 }
 
-footer .logo{
+footer .logo {
     align-self: self-start;
 }
 
-footer p{
+footer p {
     font-family: Helvetica;
     font-size: 0.875rem;
 }
 
-footer a{
+footer a {
     text-decoration: underline;
     text-decoration-color: #354463;
 }
 
-footer h1{
+footer h1 {
     color: #354463;
     text-align: right;
     margin: 0rem;
     grid-column-start: 2;
 }
 
-footer{
+footer {
     padding: 4.188rem 2rem;
 }
 
-button:hover{
+button:hover {
     background-color: #8cffb4;
     cursor: pointer;
 }
 
-@media(min-width: 768px){
-    header > ul{
+@media(min-width: 768px) {
+    header>ul {
         order: 1;
         display: flex;
         width: 60%;
@@ -468,51 +475,51 @@ button:hover{
         justify-content: space-between;
     }
 
-    a{
+    a {
         font-size: 1rem;
     }
 
-    button{
+    button {
         margin-top: 1.25rem;
         width: 8.75rem;
         height: 3rem;
     }
 
-    header{
+    header {
         padding: 1.25rem 4rem;
     }
 
-    .logo{
+    .logo {
         font-size: 1.375rem;
         margin-bottom: 0.5rem;
     }
 
-    .the-issue{
+    .the-issue {
         padding: 4rem;
     }
 
-    h1{
+    h1 {
         margin-bottom: 5.875rem;
     }
 
-    .the-issue{
+    .the-issue {
         background-image: url("../assets/assets/home/annie-spratt-135307-unsplash@2x.png");
         background-position: right bottom;
     }
 
-    .sub-heading{
+    .sub-heading {
         font-size: 0.875rem;
         width: 20.4%;
         top: 0px;
         margin: 0 39.8%;
     }
 
-    .the-issue .sub-heading{
+    .the-issue .sub-heading {
         margin-left: 4rem;
         width: 9.75rem;
     }
 
-    .the-issue > div{
+    .the-issue>div {
         padding: 4rem;
     }
 
@@ -524,40 +531,40 @@ button:hover{
         margin-top: 0rem;
     }
 
-    .the-issue a{
+    .the-issue a {
         width: 100%;
     }
 
-    .the-issue p{
+    .the-issue p {
         text-align: left;
         margin: 2rem 0rem 0rem 0rem;
     }
 
-    .take-action div>h4{
+    .take-action div>h4 {
         font-size: 1.375rem;
         line-height: 2.75rem;
     }
 
-    .take-action div>p{
+    .take-action div>p {
         font-size: 1rem;
         line-height: 1.5rem;
     }
 
-    .What-we-do{
+    .what-we-do {
         padding: 4rem;
     }
 
-    .What-we-do > .sub-heading{
+    .what-we-do>.sub-heading {
         margin-right: auto;
     }
 
-    .What-we-do > h3{
+    .what-we-do>h3 {
         width: 100%;
         font-size: 2.25rem;
         margin-bottom: 1.5rem;
     }
 
-    .What-we-do div{
+    .what-we-do div {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
@@ -565,12 +572,12 @@ button:hover{
         padding: 2rem;
     }
 
-    .What-we-do div>img{
+    .what-we-do div>img {
         grid-column-start: 1;
         grid-row-start: 1;
     }
 
-    .What-we-do div>button{
+    .what-we-do div>button {
         grid-column-start: 1;
         grid-row-start: 1;
         align-self: self-end;
@@ -578,7 +585,7 @@ button:hover{
         height: 2.5rem;
     }
 
-    .What-we-do div>h4{
+    .what-we-do div>h4 {
         grid-column-start: 2;
         grid-row-start: 1;
         align-self: self-start;
@@ -589,7 +596,7 @@ button:hover{
         padding-left: 2rem;
     }
 
-    .What-we-do div>p{
+    .what-we-do div>p {
         grid-column-start: 2;
         grid-row-start: 1;
         align-self: self-end;
@@ -601,63 +608,65 @@ button:hover{
         word-spacing: -0.01rem;
     }
 
-    .did-you-know{
+    .did-you-know {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr;
         padding: 4rem;
     }
 
-    .did-you-know > button, .did-you-know > h1{
+    .did-you-know>button,
+    .did-you-know>h1 {
         grid-column-start: 1;
         grid-row-start: 1;
         width: 9.75rem;
     }
 
-    .did-you-know > button{
+    .did-you-know>button {
         margin-top: 17.5rem;
     }
 
-    .did-you-know > div{
+    .did-you-know>div {
         grid-column-start: 2;
         grid-row-start: 1;
         padding-left: 4rem;
         margin-top: 0rem;
     }
 
-    .did-you-know > div > h4{
+    .did-you-know>div>h4 {
         margin-left: 6rem;
         width: 9.75rem;
     }
 
-    .did-you-know-info{
+    .did-you-know-info {
         margin-bottom: 2rem;
         grid-template-rows: 1fr 1fr;
     }
 
-    .did-you-know-info button{
+    .did-you-know-info button {
         margin-top: 0rem;
     }
 
-    .did-you-know-info h3, .did-you-know-info p{
+    .did-you-know-info h3,
+    .did-you-know-info p {
         margin: 0rem;
     }
 
-    .stories{
+    .stories {
         padding: 4rem;
     }
 
-    .stories .sub-heading{
+    .stories .sub-heading {
         margin-left: 4rem;
         width: 9.75rem;
     }
 
-    .stories div{
+    .stories div {
         width: 36rem;
         margin: 0rem;
     }
 
-    #stories-matter{
+    #stories-matter {
         position: relative;
         top: -4rem;
         left: 4rem;
@@ -666,48 +675,48 @@ button:hover{
         width: 70%;
     }
 
-    #stories-matter h3{
+    #stories-matter h3 {
         font-size: 1.375rem;
         line-height: 1.75rem;
         text-align: left;
     }
 
-    #stories-matter h6{
+    #stories-matter h6 {
         font-size: 0.875rem;
         line-height: 1.063rem;
         text-align: left;
     }
-    
-    .stories > button{
+
+    .stories>button {
         position: relative;
         margin: 0rem 4rem;
         top: -2rem;
         width: 9.75rem;
     }
 
-    .Event{
+    .event {
         padding: 4rem;
     }
 
-    .Event h1{
+    .event h1 {
         text-align: left;
         margin-bottom: 3.7rem;
     }
 
-    .Event div{
+    .event div {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         --h5-lines: 3;
     }
 
-    @media (min-width: 908px){
-        .Event div{
+    @media (min-width: 908px) {
+        .event div {
             --h5-lines: 2;
         }
     }
 
-    .Event div> .sub-heading{
+    .event div>.sub-heading {
         transform: translateY(0%);
         width: 9.75rem;
         margin-left: auto;
@@ -717,7 +726,7 @@ button:hover{
         left: 0rem;
     }
 
-    .Event div>h5{
+    .event div>h5 {
         grid-column-start: 1;
         grid-row-start: 1;
         margin-right: 2rem;
@@ -727,7 +736,7 @@ button:hover{
         line-height: 2.25rem;
     }
 
-    .Event div>p{
+    .event div>p {
         grid-column-start: 1;
         grid-row-start: 1;
         margin-right: 2rem;
@@ -737,99 +746,99 @@ button:hover{
         margin-top: calc((var(--h5-lines) * 5vh) + 7.5vh);
         margin-bottom: 10vh;
         line-height: 1.5rem;
-        
+
     }
 
-    .Event div>button{
+    .event div>button {
         grid-column-start: 1;
         grid-row-start: 1;
         align-self: self-end;
         margin: 0;
     }
 
-    .Event div>img{
+    .event div>img {
         position: relative;
         grid-column-start: 2;
         width: 90%;
         left: 10%;
     }
 
-    .Event h1+div>.sub-heading{
+    .event h1+div>.sub-heading {
         grid-column-start: 2;
         left: 2rem;
     }
 
-    .Event h1+div>h5{
+    .event h1+div>h5 {
         grid-column-start: 2;
         margin-left: 2rem;
         margin-right: 0rem;
     }
 
-    .Event h1+div>p{
+    .event h1+div>p {
         grid-column-start: 2;
         margin-left: 2rem;
         margin-right: 0rem;
     }
 
-    .Event h1+div>button{
+    .event h1+div>button {
         grid-column-start: 2;
         margin-left: 2rem;
         margin-right: 0rem;
     }
 
-    .Event h1+div>img{
+    .event h1+div>img {
         left: 0%;
         grid-column-start: 1;
     }
 
-    .subscribe{
+    .subscribe {
         padding: 4rem;
     }
 
-    .subscribe > h4{
+    .subscribe>h4 {
         width: 67.5%
     }
 
-    input[type="email"]{
+    input[type="email"] {
         width: 67.5%;
         text-align: left;
         padding: 0 2.5%;
     }
 
-    input[type="submit"]{
+    input[type="submit"] {
         width: 22.5%;
     }
 
-    footer{
+    footer {
         padding: 4rem;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
 
-    footer a{
+    footer a {
         font-size: 0.875rem;
     }
 
-    #learn-more{
+    #learn-more {
         grid-column-start: 2;
-    } 
+    }
 
-    footer h1{
+    footer h1 {
         text-align: left;
         grid-column-start: 3;
     }
 
 }
 
-@media (min-width: 1024px){
-    header{
+@media (min-width: 1024px) {
+    header {
         padding-left: 10rem;
         padding-right: 10rem;
         flex-wrap: nowrap;
         align-items: center;
     }
 
-    header > ul{
+    header>ul {
         order: 0;
         margin: 0%;
         width: 60%;
@@ -837,60 +846,60 @@ button:hover{
         justify-content: space-around;
     }
 
-    header > button{
+    header>button {
         margin: 0;
     }
 
-    .the-issue{
+    .the-issue {
         display: flex;
         flex-direction: row-reverse;
-        padding: 8rem 10rem; 
+        padding: 8rem 10rem;
         justify-content: space-between;
     }
 
-    .the-issue h3{
+    .the-issue h3 {
         font-size: 2.75rem;
         line-height: 3.5rem;
     }
 
-    .the-issue div{
+    .the-issue div {
         width: 50%;
     }
 
-    h1{
+    h1 {
         font-size: 4.5rem;
     }
 
-    .take-action{
+    .take-action {
         padding: 4.75rem 10rem;
     }
 
-    .take-action > div{
+    .take-action>div {
         flex-wrap: nowrap;
     }
 
-    .take-action div h4{
+    .take-action div h4 {
         font-size: 1.75rem;
     }
 
-    .What-we-do{
+    .what-we-do {
         padding: 4.75rem 10rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .What-we-do > h4{
+    .what-we-do>h4 {
         grid-column: 1/4;
     }
 
-    .What-we-do h3{
+    .what-we-do h3 {
         width: 100%;
         margin: 2.5rem 0rem;
         font-size: 2.75rem;
         grid-column: 1 / 4;
     }
 
-    .What-we-do div{
+    .what-we-do div {
         display: flex;
         justify-content: space-between;
         margin-right: 2rem;
@@ -898,74 +907,74 @@ button:hover{
         padding: 0%;
     }
 
-    .What-we-do div > img{
+    .what-we-do div>img {
         position: static;
         transform: translate(+10%, -10%);
     }
 
-    .What-we-do div > h4{
+    .what-we-do div>h4 {
         width: 80%;
         padding: 0rem 2rem;
         font-size: 1.75rem;
     }
 
-    .What-we-do div>p{
+    .what-we-do div>p {
         padding-right: 2rem;
         margin-top: 0.625rem;
     }
 
-    .What-we-do div >button{
+    .what-we-do div>button {
         align-self: self-start;
         margin: 2rem;
     }
 
-    .did-you-know-info{
+    .did-you-know-info {
         padding: 4rem;
     }
 
-    .did-you-know-info > h3{
+    .did-you-know-info>h3 {
         font-size: 2.75rem;
     }
 
-    .did-you-know-info > p{
+    .did-you-know-info>p {
         font-size: 1.25rem;
         line-height: 1.875rem;
         margin-top: 0.313rem;
     }
 
-    .did-you-know{
+    .did-you-know {
         padding: 8rem 10rem;
         grid-template-columns: 1fr 1fr;
     }
 
-    .did-you-know > button{
+    .did-you-know>button {
         margin-top: 22.5rem;
     }
 
-    .did-you-know > h1{
+    .did-you-know>h1 {
         width: 27.313rem;
     }
 
-    .did-you-know > div{
+    .did-you-know>div {
         padding: 0%;
     }
 
-    .stories{
+    .stories {
         padding: 8rem 10rem;
     }
 
-    #stories-matter h3{
+    #stories-matter h3 {
         font-size: 1.75rem;
         line-height: 2.25rem;
     }
 
-    .stories div{
+    .stories div {
         position: relative;
         width: 60%;
         left: 40%;
     }
 
-    #stories-matter{
+    #stories-matter {
         position: absolute;
         max-width: 26.75%;
         max-height: 32.5%;
@@ -973,7 +982,7 @@ button:hover{
         left: 10%;
     }
 
-    .stories button{
+    .stories button {
         position: absolute;
         top: auto;
         bottom: 8rem;
@@ -981,74 +990,83 @@ button:hover{
         margin: 0%;
     }
 
-    .Event{
+    .event {
         padding: 8rem 10rem;
     }
 
-    .Event div > h5{
+    .event div>h5 {
         font-size: 2.75rem;
         line-height: 3.5rem;
     }
 
-    .Event div > p{
+    .event div>p {
         font-size: 1.25rem;
         line-height: 2rem;
         --h5-lines: 4.5;
     }
 
-    .subscribe{
+    .subscribe {
         padding: 4rem 10rem;
         display: flex;
         align-items: center;
     }
 
-    .subscribe h4{
+    .subscribe h4 {
         width: 50%;
         font-size: 1.75rem;
         line-height: 2.25rem;
         margin: 0rem;
     }
 
-    .subscribe form{
+    .subscribe form {
         width: 50%;
         justify-content: space-around;
     }
 
-    input[type="email"]{
+    input[type="email"] {
         width: 60%;
         font-size: 1.25rem;
     }
 
-    input[type="submit"]{
+    input[type="submit"] {
         width: 20%;
     }
 
-    footer{
+    footer {
         padding: 8rem 10rem;
         display: flex;
         justify-content: space-between;
     }
 
-    footer h1{
+    footer h1 {
         font-size: 2.75rem;
         line-height: 2.875rem;
     }
 
 }
 
-@media (min-width: 1024px) and (max-width: 1280px){
-    header, .the-issue, .take-action, .What-we-do, .did-you-know, .stories, .Event, .subscribe, footer{
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    header,
+    .the-issue,
+    .take-action,
+    .what-we-do,
+    .did-you-know,
+    .stories,
+    .event,
+    .subscribe,
+    footer {
         padding: 4rem;
     }
 
-    .stories button{
+    .stories button {
         bottom: 4rem;
     }
 
 }
 
-@media (min-width: 1024px) and (max-width: 1383px){
-    #stories-matter h3{
+@media (min-width: 1024px) and (max-width: 1383px) {
+    #stories-matter h3 {
         font-size: 1.375rem;
         line-height: 1.75rem;
     }
