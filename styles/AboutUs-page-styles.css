@@ -331,6 +331,13 @@ h3 {
 .slides {
     background-color: white;
     display: none;
+    animation: slidein;
+    animation-duration: 1.5s;
+}
+
+@keyframes slidein {
+    from {opacity: 0}
+    to {opacity: 1}
 }
 
 .event img+.slides {
@@ -347,6 +354,11 @@ h3 {
     z-index: 1;
     right: 2.5%;
     top: 25%;
+}
+
+#scroll-button:hover{
+    cursor: pointer;
+    background-color: #8cffb4;
 }
 
 .dot-container {
@@ -652,6 +664,8 @@ footer {
         align-items: flex-start;
         margin-right: 2rem;
         text-align: left;
+        min-width: 47.5%;
+        margin-top: 1.5rem;
     }
 
     .slides>h5,
@@ -677,7 +691,11 @@ footer {
     .event>div {
         position: static;
         display: flex;
-        width: 200%;
+        overflow-x: scroll;
+    }
+
+    .event>div::-webkit-scrollbar{
+        width: 0rem;
     }
 
     .dot-container {
@@ -858,8 +876,8 @@ footer {
         height: 3rem;
     }
 
-    .event>div {
-        width: 185%;
+    .slides{
+        min-width: 48%;
     }
 
     .event>div>img {

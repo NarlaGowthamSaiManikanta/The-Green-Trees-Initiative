@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <title>About Us Page</title>
     <link rel="Stylesheet" href="styles/AboutUs-page-styles.css">
 </head>
@@ -173,8 +173,8 @@
 
     <section id="events" class="event">
         <h1>LET'S TAKE ACTION NOW<br>TO SAVE THE FUTURE.</h1>
-        <div>
-            <img src="assets/assets/about-us/Union 5.png" alt="next-button">
+        <div class = "slides-container" >
+            <img id="scroll-button" src="assets/assets/about-us/Union 5.png" alt="next-button">
 
             <div class="slides">
                 <h4 class="sub-heading">2018</h4>
@@ -268,6 +268,47 @@
         </div>
         <h1>#STOP<br>CLIMATE<br>CHANGE</h1>
     </footer>
+
+    <script>
+        let eventContainer = document.querySelector(".slides-container");
+        let scrollButton = document.getElementById("scroll-button");
+        let slide = 0;
+        
+        scrollButton.addEventListener("click", ()=>{
+            if (window.innerWidth > 767) {
+                if(slide === 0){
+                    eventContainer.style.scrollBehavior = "smooth";
+                    eventContainer.scrollLeft += 5000;
+                    slide = 2;
+                } else {
+                    eventContainer.style.scrollBehavior = "smooth";
+                    eventContainer.scrollLeft -= 5000;
+                    slide = 0;
+                }
+                
+            } else {
+                let slides = document.getElementsByClassName("slides");
+                let dots = document.getElementsByClassName("dot");
+
+                if (slide < slides.length - 1) {
+                    slide += 1;
+                } else {
+                    slide = 0;
+                }
+
+                for (let i=0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                    dots[i].style.background = "white";
+                }
+
+                slides[slide].style.display = "block";
+                dots[slide].style.background = "transparent";
+
+
+            }
+            
+        });
+    </script>
 </body>
 
 </html>
