@@ -336,8 +336,13 @@ h3 {
 }
 
 @keyframes slidein {
-    from {opacity: 0}
-    to {opacity: 1}
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 .event img+.slides {
@@ -356,7 +361,7 @@ h3 {
     top: 25%;
 }
 
-#scroll-button:hover{
+#scroll-button:hover {
     cursor: pointer;
     background-color: #8cffb4;
 }
@@ -694,7 +699,7 @@ footer {
         overflow-x: scroll;
     }
 
-    .event>div::-webkit-scrollbar{
+    .event>div::-webkit-scrollbar {
         width: 0rem;
     }
 
@@ -876,7 +881,7 @@ footer {
         height: 3rem;
     }
 
-    .slides{
+    .slides {
         min-width: 48%;
     }
 
